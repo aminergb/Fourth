@@ -1,0 +1,15 @@
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\bin\Debug\netstandard2.0\TestFourthplace.deps.json
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\bin\Debug\netstandard2.0\TestFourthplace.dll
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\TestFourthplace.csprojAssemblyReference.cache
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\TestFourthplace.AssemblyInfoInputs.cache
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\TestFourthplace.AssemblyInfo.cs
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\bin\Debug\netstandard2.0\ref\TestFourthplace.dll
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\bin\Debug\netstandard2.0\TestFourthplace.pdb
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\View\hello.xaml.g.cs
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\View\ViewLogin.xaml.g.cs
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\TestFourthplace.dll
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\ref\TestFourthplace.dll
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\TestFourthplace.pdb
