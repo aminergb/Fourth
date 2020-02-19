@@ -13,3 +13,8 @@ D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\
 D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\TestFourthplace.dll
 D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\ref\TestFourthplace.dll
 D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\TestFourthplace.pdb
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\View\Lieux.xaml.g.cs
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\bin\Debug\netstandard2.0\Mono.Android.dll
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\bin\Debug\netstandard2.0\Mono.Android.pdb
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\bin\Debug\netstandard2.0\Mono.Android.xml
+D:\Users\lagab\source\repos\TestFourthplace\TestFourthplace\TestFourthplace\obj\Debug\netstandard2.0\TestFourthplace.csproj.CopyComplete

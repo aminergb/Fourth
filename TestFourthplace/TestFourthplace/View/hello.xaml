@@ -6,10 +6,49 @@
              mc:Ignorable="d"
              x:Class="TestFourthplace.View.hello">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <FlexLayout>
+            
+            <ListView ItemsSource = "{Binding ListPlaces}" >
+                <ListView.ItemTemplate  >
+                    <DataTemplate  >
+                        <ViewCell Height="500" >
+                            <Grid  ColumnSpacing="5" RowSpacing="2" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    
+                                </Grid.ColumnDefinitions>
+                                
+                          
+                                <Label HorizontalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"
+                           Text="baby"
+                           />
+                                <Label HorizontalOptions="StartAndExpand"  Grid.Row="1" Grid.Column="0"
+                           Text="{Binding Title}" 
+                            />
+                                <Label  HorizontalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"
+                           Text="{Binding Id}"
+                           />
+                                <Label  Grid.Row="3"
+                           Grid.Column="0"
+                           Text="{Binding Description}"
+                            />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView> 
+        </FlexLayout>
     </ContentPage.Content>
 </ContentPage>
+<!-- <Image Grid.RowSpan="2" Source="{Binding ImageUrl}"
+                           Aspect="AspectFill"
+                           HeightRequest="60"
+                           WidthRequest="60" /> -->
+           

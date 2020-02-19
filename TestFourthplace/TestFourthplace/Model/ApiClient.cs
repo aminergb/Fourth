@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using System;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -25,6 +26,7 @@ public class ApiClient
 		return await _client.SendAsync(request);
 	}
 
+	
 	public async Task<T> ReadFromResponse<T>(HttpResponseMessage response)
 	{
 		string result = await response.Content.ReadAsStringAsync();

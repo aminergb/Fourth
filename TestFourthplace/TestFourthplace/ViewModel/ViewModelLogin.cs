@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using Storm.Mvvm;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Windows.Input;
@@ -18,7 +19,7 @@ namespace TestFourthplace.ViewModel
 
         private string _UserName;
         private string _PassWord;
-        private HttpMethod post;
+       
 
         public string UserName
         {
@@ -47,11 +48,12 @@ namespace TestFourthplace.ViewModel
             loginreq.Password = PassWord;
             loginreq.Email = UserName;
             reponse = await api.Execute(HttpMethod.Post,"https://td-api.julienmialon.com/auth/login", loginreq);
-            Console.WriteLine(PassWord);
+            
             Response ReadResponse = await api.ReadFromResponse<Response>(reponse);
             //LoginResult LogInToken = await api.ReadFromResponse<LoginResult>(reponse);
             if (ReadResponse.IsSuccess)
             {
+                
                 //string content= await reponse.Content.ReadAsStringAsync();
 
                 //prendre le data dans l'objet response en forme de string 
@@ -64,6 +66,7 @@ namespace TestFourthplace.ViewModel
                 Application.Current.Properties["AccessToken"] = LogInToken.AccessToken;
                 Application.Current.Properties["ExpiresIn"] = LogInToken.ExpiresIn;
                 Application.Current.Properties["RefreshToken"] = LogInToken.RefreshToken;
+                
                 await NavigationService.PushAsync(new hello());
 
             }
@@ -71,7 +74,7 @@ namespace TestFourthplace.ViewModel
 
             {
 
-                MessagingCenter.Send(this, "LoginAlert", "Echec");
+                Console.WriteLine("echec ");
 
 
 
